@@ -1,0 +1,21 @@
+{ 
+  "course": {
+    "coursePB": {
+    "nalPB": " https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5",
+    "noNalPB": "https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11",
+    "history": " https://api.privatbank.ua/p24api/exchange_rates?json&date=" 
+    },
+    "courseNBU": {
+      "course": " https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=3",
+      "history": " https://api.privatbank.ua/p24api/exchange_rates?json&date="
+    },
+    "courseCBRF": {
+      "course": "https://privat24.privatbank.ua/p24/accountorder?oper=prp&PUREXML&apicour&country=ru"
+    }
+  },
+  "location": {
+    "bank": "https://privat24.privatbank.ua/p24/accountorder?oper=prp&PUREXML&pboffice&city=&address=",
+    "atm": "https://privat24.privatbank.ua/p24/accountorder?oper=prp&atm&address=&city=&PUREXML=",
+    "terminal": "https://privat24.privatbank.ua/p24/accountorder?oper=prp&tso&address=&city=&PUREXML="
+  }
+}
